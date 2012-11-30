@@ -1,0 +1,19 @@
+{
+  "name": "tdzen",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": { "scripts": ["popup.js"] },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "description": "Extension tdzen",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "name": "tdzen",
+    "default_title": "tdzen"
+  }
+}
+
